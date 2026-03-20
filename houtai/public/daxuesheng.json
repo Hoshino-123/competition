@@ -1,0 +1,154 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["daxuesheng"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/daxueshenggrzlgl",
+			"name": "daxueshenggrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["daxuesheng"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/daxuesheng_updt2/1",
+					"name": "daxuesheng_updt2",
+					"component": "daxuesheng/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["daxuesheng"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/shenqingtuanduidaxueshenggl",
+			"name": "shenqingtuanduidaxueshenggl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "申请团队管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["daxuesheng"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/shenqingtuandui/1",
+					"name": "shenqingtuandui",
+					"component": "shenqingtuandui/index",
+					"meta": {
+						"title": "申请建团查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["daxuesheng"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/tuanyuandaxueshenggl",
+			"name": "tuanyuandaxueshenggl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "团员管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["daxuesheng"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/jiarutuandui/1",
+					"name": "jiarutuandui",
+					"component": "jiarutuandui/index",
+					"meta": {
+						"title": "申请入团查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["daxuesheng"],
+						"icon": "el-icon-basketball"
+					}
+				},
+
+				{
+					"path": "/tuanyuan/1",
+					"name": "tuanyuan",
+					"component": "tuanyuan/index",
+					"meta": {
+						"title": "团员查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["daxuesheng"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["daxuesheng"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

@@ -1,0 +1,217 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["tuanduifuzeren"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/tuanduifuzerengrzlgl",
+			"name": "tuanduifuzerengrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["tuanduifuzeren"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/tuanduifuzeren_updt2/1",
+					"name": "tuanduifuzeren_updt2",
+					"component": "tuanduifuzeren/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["tuanduifuzeren"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/tuanyuantuanduifuzerengl",
+			"name": "tuanyuantuanduifuzerengl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "团员管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["tuanduifuzeren"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/jiarutuandui/1",
+					"name": "jiarutuandui",
+					"component": "jiarutuandui/index",
+					"meta": {
+						"title": "加入团队查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["tuanduifuzeren"],
+						"icon": "el-icon-basketball"
+					}
+				},
+
+				{
+					"path": "/tuanyuan/1",
+					"name": "tuanyuan",
+					"component": "tuanyuan/index",
+					"meta": {
+						"title": "团员查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["tuanduifuzeren"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/baomingcansaituanduifuzerengl",
+			"name": "baomingcansaituanduifuzerengl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "报名参赛管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["tuanduifuzeren"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+
+{
+					"path": "/baomingcansai/1",
+					"name": "baomingcansai",
+					"component": "baomingcansai/index",
+					"meta": {
+						"title": "报名参赛查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["tuanduifuzeren"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/zuopinpingfentuanduifuzerengl",
+			"name": "zuopinpingfentuanduifuzerengl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "作品评分管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["tuanduifuzeren"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/zuopinpingfen/1",
+					"name": "zuopinpingfen",
+					"component": "zuopinpingfen/index",
+					"meta": {
+						"title": "作品评分查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["tuanduifuzeren"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+
+
+		{
+			"path": "/tuanyuanAdd",
+			"name": "tuanyuanAdd",
+			"component": "tuanyuan/tuanyuan_addlbdq",
+			"meta": {
+				"title": "团员添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-basketball"
+			}
+		},
+
+
+
+		{
+			"path": "/baomingcansaiAdd",
+			"name": "baomingcansaiAdd",
+			"component": "baomingcansai/baomingcansai_addlbdq",
+			"meta": {
+				"title": "报名参赛添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["tuanduifuzeren"],
+				"icon": "el-icon-basketball"
+			}
+		},
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["tuanduifuzeren"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

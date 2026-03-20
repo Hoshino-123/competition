@@ -1,0 +1,186 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["zhidaojiaoshi"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/zhidaojiaoshigrzlgl",
+			"name": "zhidaojiaoshigrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["zhidaojiaoshi"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/zhidaojiaoshi_updt2/1",
+					"name": "zhidaojiaoshi_updt2",
+					"component": "zhidaojiaoshi/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["zhidaojiaoshi"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/jingsaizhidaojiaoshigl",
+			"name": "jingsaizhidaojiaoshigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "竞赛管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["zhidaojiaoshi"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/jingsaixinxi/1",
+					"name": "jingsaixinxi",
+					"component": "jingsaixinxi/index",
+					"meta": {
+						"title": "竞赛查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["zhidaojiaoshi"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/zuopinpingfenzhidaogjiaoshigl",
+			"name": "zuopinpingfenzhidaogjiaoshigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "报名参赛管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["zhidaojiaoshi"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/baomingcansai/1",
+					"name": "baomingcansai",
+					"component": "baomingcansai/index",
+					"meta": {
+						"title": "报名参赛查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["zhidaojiaoshi"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+
+
+{
+			"path": "/zuopinpingfenzhidaojiaoshigl",
+			"name": "zuopinpingfenzhidaojiaoshigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "作品评分管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["zhidaojiaoshi"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/zuopinpingfen/1",
+					"name": "zuopinpingfen",
+					"component": "zuopinpingfen/index",
+					"meta": {
+						"title": "作品评分查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["zhidaojiaoshi"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+
+		{
+			"path": "/zuopinpingfenAdd",
+			"name": "zuopinpingfenAdd",
+			"component": "zuopinpingfen/zuopinpingfen_addlbdq",
+			"meta": {
+				"title": "作品评分添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-basketball"
+			}
+		},
+
+
+		
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["zhidaojiaoshi"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

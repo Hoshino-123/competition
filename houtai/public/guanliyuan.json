@@ -1,0 +1,514 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xtyhgl",
+			"name": "xtyhgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "系统用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/guanliyuan/1",
+					"name": "guanliyuan",
+					"component": "guanliyuan/index",
+					"meta": {
+						"title": "管理员用户",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+				{
+					"path": "/zhidaojiaoshi/1",
+					"name": "zhidaojiaoshi",
+					"component": "zhidaojiaoshi/index",
+					"meta": {
+						"title": "指导教师查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+				{
+					"path": "/daxuesheng/1",
+					"name": "daxuesheng",
+					"component": "daxuesheng/index",
+					"meta": {
+						"title": "大学生查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/xinwentongzhigl",
+			"name": "xinwentongzhigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "公告管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/xinwentongzhi/1",
+					"name": "xinwentongzhi",
+					"component": "xinwentongzhi/index",
+					"meta": {
+						"title": "公告设置",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/bhtgl",
+			"name": "bhtgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "变幻图设置",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/bianhuantu/1",
+					"name": "bianhuantu",
+					"component": "bianhuantu/index",
+					"meta": {
+						"title": "变幻图设置",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/liuyanbangl",
+			"name": "liuyanbangl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "留言管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/liuyanban/1",
+					"name": "liuyanban",
+					"component": "liuyanban/index",
+					"meta": {
+						"title": "留言管理",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/xuexiaoglygl",
+			"name": "xuexiaoglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "学校管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/xuexiaoxinxi/1",
+					"name": "xuexiaoxinxi",
+					"component": "xuexiaoxinxi/index",
+					"meta": {
+						"title": "学校查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+
+		{
+			"path": "/jingsaiglygl",
+			"name": "jingsaiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "竞赛管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/jingsaixinxi/1",
+					"name": "jingsaixinxi",
+					"component": "jingsaixinxi/index",
+					"meta": {
+						"title": "竞赛查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+				{
+					"path": "/baomingcansai/1",
+					"name": "baomingcansai",
+					"component": "baomingcansai/index",
+					"meta": {
+						"title": "报名参赛查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+
+				{
+					"path": "/zuopinpingfen/1",
+					"name": "zuopinpingfen",
+					"component": "zuopinpingfen/index",
+					"meta": {
+						"title": "作品评分查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+		{
+			"path": "/jingsaileixingglygl",
+			"name": "jingsaileixingglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "竞赛类型管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/jingsaileixing/1",
+					"name": "jingsaileixing",
+					"component": "jingsaileixing/index",
+					"meta": {
+						"title": "竞赛类型查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/jiarutuanduiglygl",
+			"name": "jiarutuanduiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "团队管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/shenqingtuandui/1",
+					"name": "shenqingtuandui",
+					"component": "shenqingtuandui/index",
+					"meta": {
+						"title": "申请团队查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+
+				{
+					"path": "/tuanduifuzeren/1",
+					"name": "tuanduifuzeren",
+					"component": "tuanduifuzeren/index",
+					"meta": {
+						"title": "团队负责人查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+				{
+					"path": "/jiarutuandui/1",
+					"name": "jiarutuandui",
+					"component": "jiarutuandui/index",
+					"meta": {
+						"title": "加入团队查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+
+				{
+					"path": "/tuanyuan/1",
+					"name": "tuanyuan",
+					"component": "tuanyuan/index",
+					"meta": {
+						"title": "团员查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+{
+			"path": "/zuopinpingfenglytj",
+			"name": "zuopinpingfenglytj",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": " 统计",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-football"
+			},
+			"children": [
+				{
+					"path": "/zuopinpingfen_tj_jingsaileixing/1",
+					"name": "zuopinpingfen_tj_jingsaileixing",
+					"component": "zuopinpingfen_tj_jingsaileixing/index",
+					"meta": {
+						"title": "按竞赛类型统计",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+{
+					"path": "/zuopinpingfen_tj_xuexiaoxinxi/1",
+					"name": "zuopinpingfen_tj_xuexiaoxinxi",
+					"component": "zuopinpingfen_tj_xuexiaoxinxi/index",
+					"meta": {
+						"title": "按学校信息统计",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				},
+{
+					"path": "/zuopinpingfen_tj_zuopinmingcheng/1",
+					"name": "zuopinpingfen_tj_zuopinmingcheng",
+					"component": "zuopinpingfen_tj_zuopinmingcheng/index",
+					"meta": {
+						"title": "按作品分数统计",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "el-icon-basketball"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		{
+			"path": "/tuanduifuzerenAdd",
+			"name": "tuanduifuzerenAdd",
+			"component": "tuanduifuzeren/tuanduifuzeren_addlbdq",
+			"meta": {
+				"title": "团队负责人添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-basketball"
+			}
+		},
+		{
+			"path": "/zuopinpingfenAdd",
+			"name": "zuopinpingfenAdd",
+			"component": "zuopinpingfen/zuopinpingfen_addlbdq",
+			"meta": {
+				"title": "作品评分添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-basketball"
+			}
+		},
+		{
+			"path": "/tuanyuanAdd",
+			"name": "tuanyuanAdd",
+			"component": "tuanyuan/tuanyuan_addlbdq",
+			"meta": {
+				"title": "团员添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-basketball"
+			}
+		},
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
